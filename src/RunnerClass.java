@@ -20,7 +20,7 @@ public class RunnerClass {
   }
   @BeforeMethod
   public void openBrowser() {
-	  System.setProperty("webdriver.chrome.driver", "C:/ChromeDriver/chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Desktop\\DriverSetUp\\chromedriver.exe");
 	  driver = new ChromeDriver();
 	  System.out.println("launching firefox browser"); 
   }
